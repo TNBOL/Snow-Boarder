@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.976667, y: 5.55, z: -10}
+  m_LocalPosition: {x: -4.9966664, y: 5.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -338,6 +338,7 @@ GameObject:
   - component: {fileID: 1734336791}
   - component: {fileID: 1734336790}
   - component: {fileID: 1734336793}
+  - component: {fileID: 1734336794}
   m_Layer: 0
   m_Name: Level Sprit Shape
   m_TagString: Untagged
@@ -620,7 +621,7 @@ EdgeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
@@ -878,6 +879,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &1734336794
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734336789}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 10
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1736812599
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736812599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.976667, y: 5.55, z: -10}
+  m_LocalPosition: {x: -4.9966664, y: 5.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -987,7 +1006,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!4 &1906386180
 Transform:
@@ -996,8 +1015,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906386176}
-  m_LocalRotation: {x: -0, y: -0, z: 0.0061196145, w: 0.9999813}
-  m_LocalPosition: {x: -10.31, y: 5.55, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.15140963, w: 0.9884711}
+  m_LocalPosition: {x: -10.33, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1005,7 +1024,7 @@ Transform:
   - {fileID: 720446528}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.417}
 --- !u!70 &1906386181
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
