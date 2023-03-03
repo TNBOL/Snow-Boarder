@@ -11,4 +11,5 @@ public class FinishLine : MonoBehaviour
             Debug.Log("You Finished!");
         }
     }
+
 }
